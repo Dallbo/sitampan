@@ -42,7 +42,7 @@
                     <span class="text-secondary">Tanam Horti</span></a>
             </li>
             <li class="nav-item active">
-                <a class="nav-link" href="index.html">
+                <a class="nav-link" href="tpajale.php">
                     <span class="text-secondary">Tanam Pajale</span></a>
             </li>
             <li class="nav-item active">

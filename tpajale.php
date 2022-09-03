@@ -145,7 +145,7 @@
                         <div class="col-sm-12">
                         <table class="table">
                             <div class="d-flex align-items-center justify-content-center">
-                                <h4><b style="color:black;">Form Tanam Pajale</b></h4>
+                                <h4><b style="color:black;">Tanam Pajale</b></h4>
                             </div>
                             <thead class="bg-success">
                                 <tr>

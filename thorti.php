@@ -38,11 +38,11 @@
                     <span class="text-secondary">Beranda</span></a>
             </li>
             <li class="nav-item active">
-                <a class="nav-link" href="horti.php">
+                <a class="nav-link" href="thorti.php">
                     <span class="text-secondary">Tanam Horti</span></a>
             </li>
             <li class="nav-item active">
-                <a class="nav-link" href="index.html">
+                <a class="nav-link" href="tpajale.php">
                     <span class="text-secondary">Tanam Pajale</span></a>
             </li>
             <li class="nav-item active">
@@ -111,16 +111,33 @@
                             
                         </div>
                         <!-- panen Horti Stop-->
-                       <h7><b style="color:black;">Show</b></h7>
-                       <div>
-                            <button class="btn btn-secondary dropdown-toggle" type="button" data-bs-toggle="dropdown" aria-expanded="false">
-                            </button>
-                            <ul class="dropdown-menu">
-                                <li><a class="dropdown-item" href="#">Action</a></li>
-                                <li><a class="dropdown-item" href="#">Another action</a></li>
-                                <li><a class="dropdown-item" href="#">Something else here</a></li>
-                            </ul>
+                       <!-- Show Entries Start -->
+                       <div class="col-md-8" style="margin-top:15px;">
+                            <nav class="navbar navbar-light bg-light justify-content-between">
+                                <form class="form-inline">
+                                    <div class="form-group mb-2">
+                                        <label class="text-dark">Show Entries</label>
+                                    </div>
+                                    <div class="form-group mx-sm-3 mb-2">
+                                        <select class="form-select" aria-label="Default select example">
+                                            <option selected>Pilih Entrie</option>
+                                            <option value="1">1</option>
+                                            <option value="2">2</option>
+                                            <option value="3">3</option>
+                                        </select>
+                                    </div>
+                                </form>
+                            </nav>
                         </div>
+                        <div class="col-md-4" style="margin-top:15px;">
+                            <nav class="navbar navbar-light bg-light justify-content-between">
+                                <form class="form-inline">
+                                    <input class="form-control mr-sm-2" type="search" placeholder="Search" aria-label="Search">
+                                    <button class="btn btn-outline-success my-2 my-sm-0" type="submit">Search</button>
+                                </form>
+                            </nav>
+                        </div>
+                        <!-- Show Entries Stop -->
                         
                     </div>
 
@@ -130,37 +147,52 @@
                         <!-- Tabel Semua Tanam Start -->
                         <div class="col-sm-12">
                         <table class="table">
-                            <h4><b style="color:black;">Laporan Tanam</b></h4>
+                            <div class="d-flex align-items-center justify-content-center">
+                                <h4><b style="color:black;">Tanam Horti</b></h4>
+                            </div>
                             <thead class="bg-success">
                                 <tr>
-                                    <th scope="col"><h7 class="text-white">Nomor</h7></th>
-                                    <th scope="col"><h7 class="text-white">Pajale</h7></th>
-                                    <th scope="col"><h7 class="text-white">Horti</h7></th>
-                                    <th scope="col"><h7 class="text-white">Perkebunan</h7></th>
                                     <th scope="col"><h7 class="text-white">Tanggal</h7></th>
+                                    <th scope="col"><h7 class="text-white">Tanaman</h7></th>
+                                    <th scope="col"><h7 class="text-white">Desa</h7></th>
+                                    <th scope="col"><h7 class="text-white">Luas</h7></th>
+                                    <th scope="col"><h7 class="text-white">Produksi</h7></th>
+                                    <th scope="col"><h7 class="text-white">Aksi</h7></th>
                                 </tr>
                             </thead>
                             <tbody>
                                 <tr>
-                                    <th scope="row">1</th>
-                                    <td>33</td>
-                                    <td>22</td>
-                                    <td>1</td>
-                                    <td>2022-01-11</td>
+                                    <th scope="row">2022-08-01</th>
+                                    <td>Bawang Merah</td>
+                                    <td>Pajeng</td>
+                                    <td>3 Ha</td>
+                                    <td></td>
+                                    <td>
+                                        <i class="fas fa-fw fa-pen-alt"></i>
+                                        <i class="fas fa-fw fa-trash-alt"></i>
+                                    </td>
                                 </tr>
                                 <tr>
-                                    <th scope="row">2</th>
-                                    <td>33</td>
-                                    <td>22</td>
-                                    <td>1</td>
-                                    <td>2022-01-11</td>
+                                    <th scope="row">2022-08-01</th>
+                                    <td>Cabe Rawit</td>
+                                    <td>Brangkal</td>
+                                    <td>2 Ha</td>
+                                    <td></td>
+                                    <td>
+                                        <i class="fas fa-fw fa-pen-alt"></i>
+                                        <i class="fas fa-fw fa-trash-alt"></i>
+                                    </td>
                                 </tr>
                                 <tr>
-                                    <th scope="row">3</th>
-                                    <td>33</td>
-                                    <td>22</td>
-                                    <td>1</td>
-                                    <td>2022-01-11</td>
+                                    <th scope="row">2022-08-01</th>
+                                    <td>Cabe Kriting</td>
+                                    <td>Kedungadem</td>
+                                    <td>4 Ha</td>
+                                    <td></td>
+                                    <td>
+                                        <i class="fas fa-fw fa-pen-alt"></i>
+                                        <i class="fas fa-fw fa-trash-alt"></i>
+                                    </td>
                                 </tr>
                             </tbody>
                         </table>
