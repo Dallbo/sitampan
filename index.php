@@ -6,9 +6,11 @@
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
     <meta name="description" content="">
     <meta name="author" content="">
+    <link rel="icon" href="logo.png" type="image/icon type">
     <title>SiTampan</title>
     <!-- Custom fonts for this template-->
     <link href="vendor/fontawesome-free/css/all.min.css" rel="stylesheet" type="text/css">
+    
     <link
         href="https://fonts.googleapis.com/css?family=Nunito:200,200i,300,300i,400,400i,600,600i,700,700i,800,800i,900,900i"
         rel="stylesheet">
@@ -20,46 +22,44 @@
     <!-- Page Wrapper -->
     <div id="wrapper">
         <!-- Sidebar Start-->
-        <ul class="navbar-nav  bg-gradient-primary sidebar sidebar-dark accordion" style="color:black;" id="accordionSidebar">
+        <ul class="navbar-nav  bg-gradient-light sidebar sidebar-dark accordion" style="color:black;" id="accordionSidebar">
             <!-- Sidebar - Brand -->
             <a class="sidebar-brand d-flex align-items-center justify-content-center" href="index.html">
-                <div class="sidebar-brand-icon rotate-n-15">
-                    <i class="fas fa-laugh-wink"></i>
+                <div class="sidebar-brand-icon ">
+                    <img src="logo.png" style="width:80px;height:60px;"/>
                 </div>
-                <div class="sidebar-brand-text mx-3">Si Tampan</div>
+                <div class="sidebar-brand-text mx-3 text-secondary">Si Tampan</div>
             </a>
             <!-- Divider -->
             <hr class="sidebar-divider my-0">
             <!-- Nav Item - Dashboard -->
             <li class="nav-item active">
-                <a class="nav-link" href="index.html">
-                    <i class="fas fa-fw fa-tachometer-alt"></i>
-                    <span>Dashboard</span></a>
+                <a class="nav-link" href="index.php" >
+                    <span class="text-secondary">Beranda</span></a>
+            </li>
+            <li class="nav-item active">
+                <a class="nav-link" href="thorti.php">
+                    <span class="text-secondary">Tanam Horti</span></a>
             </li>
             <li class="nav-item active">
                 <a class="nav-link" href="index.html">
-                    <i class="fas fa-fw fa-tachometer-alt"></i>
-                    <span>Dashboard</span></a>
+                    <span class="text-secondary">Tanam Pajale</span></a>
             </li>
             <li class="nav-item active">
                 <a class="nav-link" href="index.html">
-                    <i class="fas fa-fw fa-tachometer-alt"></i>
-                    <span>Dashboard</span></a>
+                    <span class="text-secondary">Tanam Perkebunan</span></a>
             </li>
             <li class="nav-item active">
                 <a class="nav-link" href="index.html">
-                    <i class="fas fa-fw fa-tachometer-alt"></i>
-                    <span>Dashboard</span></a>
+                    <span class="text-secondary">Panen Horti</span></a>
             </li>
             <li class="nav-item active">
                 <a class="nav-link" href="index.html">
-                    <i class="fas fa-fw fa-tachometer-alt"></i>
-                    <span>Dashboard</span></a>
+                    <span class="text-secondary">Panen Pajale</span></a>
             </li>
             <li class="nav-item active">
                 <a class="nav-link" href="index.html">
-                    <i class="fas fa-fw fa-tachometer-alt"></i>
-                    <span>Dashboard</span></a>
+                    <span class="text-secondary">Panen Perkebunan</span></a>
             </li>
             <!-- Divider -->
             <hr class="sidebar-divider">
@@ -87,20 +87,21 @@
 
                 <!-- Begin Page Content -->
                 <div class="container-fluid">
+                <h4><b style="color:black;">Beranda</b></h4>
                     <!-- Content Row -->
                     <div class="row">
                         <!-- Tanam Pajale Start Card Example -->
                         <div class="col-xl-3 col-md-6 mb-4">
-                            <div class="card border-left-primary shadow h-100 py-2">
+                            <div class="card border-left-success shadow h-100 py-2">
                                 <div class="card-body">
                                     <div class="row no-gutters align-items-center">
                                         <div class="col mr-2">
-                                            <div class="text-xs font-weight-bold text-primary text-uppercase mb-1">
-                                                Tanam Pajale</div>
+                                            <div class="text-xs font-weight-bold text-success text-uppercase mb-1">
+                                                Tanam Horti</div>
                                             <div class="h5 mb-0 font-weight-bold text-gray-800">40</div>
                                         </div>
                                         <div class="col-auto">
-                                            <i class="fas fa-calendar fa-2x text-gray-300"></i>
+                                            <i class="fas fa-box fa-2x text-gray-300"></i>
                                         </div>
                                     </div>
                                 </div>
@@ -114,11 +115,11 @@
                                     <div class="row no-gutters align-items-center">
                                         <div class="col mr-2">
                                             <div class="text-xs font-weight-bold text-success text-uppercase mb-1">
-                                                Tanam Horti</div>
+                                                Tanam Pajale</div>
                                             <div class="h5 mb-0 font-weight-bold text-gray-800">215</div>
                                         </div>
                                         <div class="col-auto">
-                                            <i class="fas fa-dollar-sign fa-2x text-gray-300"></i>
+                                            <i class="fas fa-box fa-2x text-gray-300"></i>
                                         </div>
                                     </div>
                                 </div>
@@ -127,40 +128,77 @@
                         <!-- Tanam Horti Stop-->
                         <!-- Tanam Perkebunan Start -->
                         <div class="col-xl-3 col-md-6 mb-4">
-                            <div class="card border-left-warning shadow h-100 py-2">
+                            <div class="card border-left-success shadow h-100 py-2">
                                 <div class="card-body">
                                     <div class="row no-gutters align-items-center">
                                         <div class="col mr-2">
-                                            <div class="text-xs font-weight-bold text-warning text-uppercase mb-1">
+                                            <div class="text-xs font-weight-bold text-success text-uppercase mb-1">
                                                 Tanam Perkebunan</div>
-                                            <div class="h5 mb-0 font-weight-bold text-gray-800">18</div>
+                                            <div class="h5 mb-0 font-weight-bold text-gray-800">40</div>
                                         </div>
                                         <div class="col-auto">
-                                            <i class="fas fa-comments fa-2x text-gray-300"></i>
+                                            <i class="fas fa-box fa-2x text-gray-300"></i>
                                         </div>
                                     </div>
                                 </div>
                             </div>
                         </div>
                         <!-- Tanam Perkebunan Stop -->
-                        <!-- Hasil tanam Start-->
+                        <!-- panen Horti Start-->
                         <div class="col-xl-3 col-md-6 mb-4">
-                            <div class="card border-left-warning shadow h-100 py-2">
+                            <div class="card border-left-success shadow h-100 py-2">
                                 <div class="card-body">
                                     <div class="row no-gutters align-items-center">
                                         <div class="col mr-2">
-                                            <div class="text-xs font-weight-bold text-warning text-uppercase mb-1">
-                                                Tanam Perkebunan</div>
-                                            <div class="h5 mb-0 font-weight-bold text-gray-800">18</div>
+                                            <div class="text-xs font-weight-bold text-success text-uppercase mb-1">
+                                                Panen Horti</div>
+                                            <div class="h5 mb-0 font-weight-bold text-gray-800">40</div>
                                         </div>
                                         <div class="col-auto">
-                                            <i class="fas fa-comments fa-2x text-gray-300"></i>
+                                            <i class="fas fa-box fa-2x text-gray-300"></i>
                                         </div>
                                     </div>
                                 </div>
                             </div>
                         </div>
-                        <!-- Hasil tanam Stop-->
+                        <!-- panen Horti Stop-->
+                        <!-- panen Pajale Start-->
+                        <div class="col-xl-3 col-md-6 mb-4">
+                            <div class="card border-left-success shadow h-100 py-2">
+                                <div class="card-body">
+                                    <div class="row no-gutters align-items-center">
+                                        <div class="col mr-2">
+                                            <div class="text-xs font-weight-bold text-success text-uppercase mb-1">
+                                                Panen Pajale</div>
+                                            <div class="h5 mb-0 font-weight-bold text-gray-800">40</div>
+                                        </div>
+                                        <div class="col-auto">
+                                            <i class="fas fa-box fa-2x text-gray-300"></i>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <!-- Panen Pajale Stop-->
+                        <!-- panen Perkebunan Start-->
+                        <div class="col-xl-3 col-md-6 mb-4">
+                            <div class="card border-left-success shadow h-100 py-2">
+                                <div class="card-body">
+                                    <div class="row no-gutters align-items-center">
+                                        <div class="col mr-2">
+                                            <div class="text-xs font-weight-bold text-success text-uppercase mb-1">
+                                                Panen Perkebunan</div>
+                                            <div class="h5 mb-0 font-weight-bold text-gray-800">40</div>
+                                        </div>
+                                        <div class="col-auto">
+                                            <i class="fas fa-box fa-2x text-gray-300"></i>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <!-- Panen Perkebunan Stop-->
+                        
                     </div>
 
                     <!-- Content Row -->
@@ -204,6 +242,45 @@
                         </table>
                         </div>
                         <!-- Tabel Semua Tanam Stop -->
+                         <!-- Tabel Semua Panen Start -->
+                         <div class="col-sm-12">
+                        <table class="table">
+                            <h4><b style="color:black;">Laporan Panen</b></h4>
+                            <thead class="bg-success">
+                                <tr>
+                                    <th scope="col"><h7 class="text-white">Nomor</h7></th>
+                                    <th scope="col"><h7 class="text-white">Pajale</h7></th>
+                                    <th scope="col"><h7 class="text-white">Horti</h7></th>
+                                    <th scope="col"><h7 class="text-white">Perkebunan</h7></th>
+                                    <th scope="col"><h7 class="text-white">Tanggal</h7></th>
+                                </tr>
+                            </thead>
+                            <tbody>
+                                <tr>
+                                    <th scope="row">1</th>
+                                    <td>33</td>
+                                    <td>22</td>
+                                    <td>1</td>
+                                    <td>2022-01-11</td>
+                                </tr>
+                                <tr>
+                                    <th scope="row">2</th>
+                                    <td>33</td>
+                                    <td>22</td>
+                                    <td>1</td>
+                                    <td>2022-01-11</td>
+                                </tr>
+                                <tr>
+                                    <th scope="row">3</th>
+                                    <td>33</td>
+                                    <td>22</td>
+                                    <td>1</td>
+                                    <td>2022-01-11</td>
+                                </tr>
+                            </tbody>
+                        </table>
+                        </div>
+                        <!-- Tabel Semua Panen Stop -->
                     </div>
                 </div>
                 <!-- /.container-fluid -->
