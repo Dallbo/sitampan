@@ -111,8 +111,8 @@
                             
                         </div>
                         <!-- panen Horti Stop-->
-                       <!-- Show Entries Start -->
-                       <div class="col-md-8" style="margin-top:15px;">
+                        <!-- Show Entries Start -->
+                        <div class="col-md-8" style="margin-top:15px;">
                             <nav class="navbar navbar-light bg-light justify-content-between">
                                 <form class="form-inline">
                                     <div class="form-group mb-2">
@@ -138,17 +138,14 @@
                             </nav>
                         </div>
                         <!-- Show Entries Stop -->
-                        
                     </div>
-
-
                     <!-- Content Row -->
                     <div class="row">
                         <!-- Tabel Semua Tanam Start -->
                         <div class="col-sm-12">
                         <table class="table">
                             <div class="d-flex align-items-center justify-content-center">
-                                <h4><b style="color:black;">Tanam Horti</b></h4>
+                                <h4><b style="color:black;">Tanam Perkebunan</b></h4>
                             </div>
                             <thead class="bg-success">
                                 <tr>
@@ -163,10 +160,10 @@
                             <tbody>
                                 <tr>
                                     <th scope="row">2022-08-01</th>
-                                    <td>Bawang Merah</td>
-                                    <td>Pajeng</td>
-                                    <td>3 Ha</td>
-                                    <td>550 Ton</td>
+                                    <td>Tembakau</td>
+                                    <td>Balen</td>
+                                    <td>8 Ha</td>
+                                    <td>200 Ton</td>
                                     <td>
                                         <i class="fas fa-fw fa-pen-alt"></i>
                                         <i class="fas fa-fw fa-trash-alt"></i>
@@ -174,21 +171,21 @@
                                 </tr>
                                 <tr>
                                     <th scope="row">2022-08-01</th>
-                                    <td>Cabe Rawit</td>
-                                    <td>Brangkal</td>
+                                    <td>Tebu</td>
+                                    <td>Trenggulunan</td>
+                                    <td>6 Ha</td>
+                                    <td>150 Ton</td>
+                                    <td>
+                                        <i class="fas fa-fw fa-pen-alt"></i>
+                                        <i class="fas fa-fw fa-trash-alt"></i>
+                                    </td>
+                                </tr>
+                                <tr>
+                                    <th scope="row">2022-08-01</th>
+                                    <td>pete</td>
+                                    <td>Klino</td>
                                     <td>2 Ha</td>
-                                    <td>350 Ton</td>
-                                    <td>
-                                        <i class="fas fa-fw fa-pen-alt"></i>
-                                        <i class="fas fa-fw fa-trash-alt"></i>
-                                    </td>
-                                </tr>
-                                <tr>
-                                    <th scope="row">2022-08-01</th>
-                                    <td>Cabe Kriting</td>
-                                    <td>Kedungadem</td>
-                                    <td>4 Ha</td>
-                                    <td>600 Ton</td>
+                                    <td>50 Ton</td>
                                     <td>
                                         <i class="fas fa-fw fa-pen-alt"></i>
                                         <i class="fas fa-fw fa-trash-alt"></i>

@@ -28,7 +28,7 @@
                 <div class="sidebar-brand-icon ">
                     <img src="logo.png" style="width:80px;height:60px;"/>
                 </div>
-                <div class="sidebar-brand-text mx-3 text-secondary">Si Tampan</div>
+                <div class="sidebar-brand-text mx-3 text-secondary"><b style="color:black;">Si Tampan</b></div>
             </a>
             <!-- Divider -->
             <hr class="sidebar-divider my-0">
@@ -46,19 +46,19 @@
                     <span class="text-secondary">Tanam Pajale</span></a>
             </li>
             <li class="nav-item active">
-                <a class="nav-link" href="index.html">
+                <a class="nav-link" href="tperkebunan.php">
                     <span class="text-secondary">Tanam Perkebunan</span></a>
             </li>
             <li class="nav-item active">
-                <a class="nav-link" href="index.html">
+                <a class="nav-link" href="phorti.php">
                     <span class="text-secondary">Panen Horti</span></a>
             </li>
             <li class="nav-item active">
-                <a class="nav-link" href="index.html">
+                <a class="nav-link" href="ppajale.php">
                     <span class="text-secondary">Panen Pajale</span></a>
             </li>
             <li class="nav-item active">
-                <a class="nav-link" href="index.html">
+                <a class="nav-link" href="pperkebunan.php">
                     <span class="text-secondary">Panen Perkebunan</span></a>
             </li>
             <!-- Divider -->
@@ -74,8 +74,8 @@
                 <nav class="navbar navbar-expand navbar-light bg-white topbar mb-4 static-top shadow">
                     <img src="Bojonegoro.png" style="width:80px;height:60px;"/>
                     <div class="col"> 
-                        <h5>PEMERINTAH KABUPATEN BOJONEGORO</h5>
-                        <small>DINAS KETAHANAN PANGAN DAN PERTANIAN</small>
+                        <h5><b style="color:black;">PEMERINTAH KABUPATEN BOJONEGORO</b></h5>
+                        <small><b style="color:black;">DINAS KETAHANAN PANGAN DAN PERTANIAN</b></small>
                     </div>
                     <li class="nav-item dropdown no-arrow">
                         <a class="nav-link dropdown-toggle" href="#" id="userDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
@@ -149,34 +149,47 @@
                             </div>
                             <thead class="bg-success">
                                 <tr>
-                                    <th scope="col"><h7 class="text-white">Nomor</h7></th>
-                                    <th scope="col"><h7 class="text-white">Pajale</h7></th>
-                                    <th scope="col"><h7 class="text-white">Horti</h7></th>
-                                    <th scope="col"><h7 class="text-white">Perkebunan</h7></th>
                                     <th scope="col"><h7 class="text-white">Tanggal</h7></th>
+                                    <th scope="col"><h7 class="text-white">Tanaman</h7></th>
+                                    <th scope="col"><h7 class="text-white">Desa</h7></th>
+                                    <th scope="col"><h7 class="text-white">Luas</h7></th>
+                                    <th scope="col"><h7 class="text-white">Produksi</h7></th>
+                                    <th scope="col"><h7 class="text-white">Aksi</h7></th>
                                 </tr>
                             </thead>
                             <tbody>
                                 <tr>
-                                    <th scope="row">1</th>
-                                    <td>33</td>
-                                    <td>22</td>
-                                    <td>1</td>
-                                    <td>2022-01-11</td>
+                                    <th scope="row">2022-08-01</th>
+                                    <td>Padi</td>
+                                    <td>Sumberarum</td>
+                                    <td>10 Ha</td>
+                                    <td>1250 Ton</td>
+                                    <td>
+                                        <i class="fas fa-fw fa-pen-alt"></i>
+                                        <i class="fas fa-fw fa-trash-alt"></i>
+                                    </td>
                                 </tr>
                                 <tr>
-                                    <th scope="row">2</th>
-                                    <td>33</td>
-                                    <td>22</td>
-                                    <td>1</td>
-                                    <td>2022-01-11</td>
+                                    <th scope="row">2022-08-01</th>
+                                    <td>Jagung</td>
+                                    <td>Bubulan</td>
+                                    <td>15 Ha</td>
+                                    <td>1100 Ton</td>
+                                    <td>
+                                        <i class="fas fa-fw fa-pen-alt"></i>
+                                        <i class="fas fa-fw fa-trash-alt"></i>
+                                    </td>
                                 </tr>
                                 <tr>
-                                    <th scope="row">3</th>
-                                    <td>33</td>
-                                    <td>22</td>
-                                    <td>1</td>
-                                    <td>2022-01-11</td>
+                                    <th scope="row">2022-08-01</th>
+                                    <td>porang</td>
+                                    <td>Sekar</td>
+                                    <td>20 Ha</td>
+                                    <td>750 Ton</td>
+                                    <td>
+                                        <i class="fas fa-fw fa-pen-alt"></i>
+                                        <i class="fas fa-fw fa-trash-alt"></i>
+                                    </td>
                                 </tr>
                             </tbody>
                         </table>
